@@ -20,6 +20,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
 
+	<!-- Animate CSS -->
 	<link rel="stylesheet" href="assets/css/animate.css">
 	
 	<title>Portfolio | Darren Maglaque</title>
@@ -29,7 +30,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<!-- LANDING PAGE -->
-				<aside id="sidebar" class="col-md-4"> 
+				<aside id="sidebar" class="col-12 col-md-4"> 
 					<img src="assets/icons/avatar.png" alt="" id="portrait">
 					<h2>Darren<br>Maglaque</h2>
 					<nav class="navbar flex-column">
@@ -41,11 +42,11 @@
 					</nav>
 				</aside> <!-- End of sidebar -->
 
-				<section id="land-right" class="col-md-8">
+				<section id="land-right" class="col-12 col-md-8 px-0">
 					<img id="land-right-bg" src="assets/icons/pattern1.png" alt="">
-					<div id="landing-card" class="card animated slideInUp">
+					<div id="landing-card" class="card animated slideInUp col-12">
 						<div class="card-body">
-							<h1 class="card-title">Me in 30 Seconds</h1>
+							<h1 class="card-title">Me in &lt; 30 Seconds</h1>
 							<p class="card-text">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam aperiam neque, mollitia impedit rerum obcaecati et, laboriosam fugit fuga tempore enim dolorum iusto, voluptas, cumque sequi praesentium facilis dolore eveniet?
 							</p>
@@ -55,17 +56,16 @@
 					
 					<section class="down">
 					<p>Know More<br><a href="#wdd-header"><i class="fas fa-chevron-circle-down"></a></i></p>
-					
 					</section>
 				</section> <!-- End of landing right section -->
 			<!-- END OF LANDING PAGE -->
 
-			<section id="wdd-header">
-				<div class="wdd-left col-md-6">
+			<section id="wdd-header" class="col-12 col-md-12">
+				<div class="wdd-left col-12 col-md-6">
 					<img src="assets/images/laptop.svg" alt="" height="100px" id="wdd-bg">
 					<h2 class="wdd">Web Design & Development</h2>
 				</div>
-				<div class="wdd-right col-md-6">
+				<div class="wdd-right col-12 col-md-6">
 					<p>HTML</p>
 					<div class="progress">
 						<div class="progress-bar pb-html">80%</div>
@@ -85,29 +85,35 @@
 			<section id="wdd-projects">
 				<h1>Recent Projects in Web Design and Development</h1>
 				<hr>
-				<div class="animated fadeInRight card projects-left col-md-7 offset-md-1">
+				
+				<div class="animated fadeInRight card projects-left col-10 col-md-6 offset-1 offset-md-3">
+					<h3 class="card-title text-center mb-4">Name of 7-Star Hotel</h3>
 					<img src="assets/images/capstone1-ph.jpg" alt="sdasd" class="card-img-top mb3">
-					<h5 class="card-title">Capstone 1</h5>
 					<p class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit praesentium ipsum rerum unde iusto assumenda esse accusamus repudiandae ratione in!</p>	
-					<a class="mb-3" href="#">Live Preview</a>				
+					<hr>
+					<a href="#"><button class="btn mb-4 btn-live">Live Preview</button></a>				
 				</div>
 				
-				<div class="animated fadeInLeft card projects-mid col-md-7 offset-md-4">
+				<div class="animated fadeInLeft card projects-mid col-10 col-md-6 offset-1 offset-md-3">
+					<h3 class="card-title text-center mb-4">Capstone 2</h3>
 					<img src="assets/images/capstone1-ph.jpg" alt="sdasd" class="card-img-top mb3">
-					<h5 class="card-title">Capstone 2</h5>
-					<p class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit praesentium ipsum rerum unde iusto assumenda esse accusamus repudiandae ratione in!</p>		
-					<a class="mb-3" href="#">Live Preview</a>		
+					
+					<p class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptates repudiandae quam optio nulla inventore. Soluta ipsa autem non vitae blanditiis natus provident et! Porro, enim voluptatibus suscipit eaque neque ipsa voluptate dolor deleniti iste tempora sunt dicta nulla excepturi fugiat delectus facere, voluptatem voluptas. Exercitationem perspiciatis laudantium cumque voluptatum?</p>		
+					<hr>
+					<a href="#"><button class="btn mb-4 btn-live">Live Preview</button></a>		
 				</div>
-				<div class="animated fadeInRight card projects-right col-md-7 offset-md-1">
+				
+				<div class="animated fadeInRight card projects-right col-10 col-md-6 offset-1 offset-md-3">
+					<h3 class="card-title text-center mb-4">Capstone 3</h3>
 					<img src="assets/images/capstone1-ph.jpg" alt="sdasd" class="card-img-top mb3">
-					<h5 class="card-title">Capstone 3</h5>
-					<p class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit praesentium ipsum rerum unde iusto assumenda esse accusamus repudiandae ratione in!</p>			
-					<a class="mb-3" href="#">Live Preview</a>	
+					<p class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit praesentium ipsum rerum unde iusto assumenda esse accusamus repudiandae ratione in!</p>
+					<hr>			
+					<a href="#"><button class="btn mb-4 btn-live">Live Preview</button></a>	
 				</div>
 			</section>
 
 			<footer>
-				<section class="footer-section">
+				<section class="footer-section col-3 col-md-2">
 					<h6>Navigation</h6>
 					<nav class="footer-nav">
 						<li class="nav-item"><a href="#">Home</a></li>
@@ -117,7 +123,7 @@
 						<li class="nav-item"><a href="#">Contact</a></li>
 					</nav>
 				</section>
-				<section class="footer-section">
+				<section class="footer-section col-3 col-md-2">
 					<h6>Showcase</h6>
 					<nav class="footer-nav">
 						<li class="nav-item"><a href="#">Writing</a></li>
@@ -127,7 +133,7 @@
 						
 					</nav>
 				</section>
-				<section class="footer-section social-links">
+				<section class="footer-section social-links col-3 col-md-2">
 					<h6>Connect</h6>
 					<nav class="footer-nav">
 						<li class="nav-item"><a href="#"><i class="fab fa-github"></i></a></li>
