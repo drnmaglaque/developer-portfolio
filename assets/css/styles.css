@@ -97,14 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 /*-----------------------------------------Landing > land-right*/
 #land-right {
 	height: 100vh;
-	/*border: 1px solid red;*/
-	/*background: url("../images/discount.svg") repeat;
-	background-size: cover;
-	bac*/
 	background-color: #fff1d7;
-
-/*	display: flex;
-	justify-content: center;*/
 }
 
 #land-right-bg {
@@ -186,7 +179,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 16rem;
 	width:26%;
 	padding-bottom: 2%;
-	border-bottom: 1px solid black;
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
 }
 
 .wdd {
@@ -216,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pb-bs {
-	width: 30%;
+	width: 50%;
 }
 
 .wdd-right p {
@@ -232,12 +226,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*----------------------------------------------WDD Projects*/
-[class*=col-md] {
-	/*border: 1px solid red;*/
-}
-
-
-
 #wdd-projects {
 	/*border: 1px solid green;*/
 	background-color: #fff1d7;
@@ -246,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #wdd-projects hr {
-	margin-bottom: 4%;
+	margin-bottom: 2%;
 }
 
 #wdd-projects h1 {
@@ -275,14 +263,11 @@ h1, h2, h3, h4, h5, h6 {
 .projects-right,
 .projects-desc1 {
 	float: left;
-	margin-bottom: 11%;
+	/* margin-bottom: 11%; */
 	padding-top: 2%;
 	border-bottom: 1.5rem solid #ffb253;
-	box-shadow: 8px 8px 8px #888888;
-}
-
-
-.projects-left {
+	/* box-shadow: 8px 8px 8px #888888; */
+	border-radius: 0;
 }
 
 .card-img-top {
